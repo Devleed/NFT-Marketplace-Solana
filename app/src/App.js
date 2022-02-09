@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import twitterLogo from './assets/twitter-logo.svg';
+import CandyMachine from './CandyMachine';
 
 // Constants
 const TWITTER_HANDLE = '_buildspace';
@@ -11,8 +12,7 @@ const App = () => {
     <div className="App">
       <div className="container">
         <div className="header-container">
-          <p className="header">🍭 Candy Drop</p>
-          <p className="sub-text">NFT drop machine with fair mint</p>
+          <CandyMachine />
         </div>
         <div className="footer-container">
           <img alt="Twitter Logo" className="twitter-logo" src={twitterLogo} />
@@ -20,8 +20,7 @@ const App = () => {
             className="footer-text"
             href={TWITTER_LINK}
             target="_blank"
-            rel="noreferrer"
-          >{`built on @${TWITTER_HANDLE}`}</a>
+            rel="noreferrer">{`built on @${TWITTER_HANDLE}`}</a>
         </div>
       </div>
     </div>

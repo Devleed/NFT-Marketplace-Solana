@@ -1,0 +1,19 @@
+{
+  "name": "spiderman_3",
+  "symbol": "",
+  "image": "2.png",
+  "properties": {
+    "files": [
+      {
+        "uri": "2.png",
+        "type": "image/png"
+      }
+    ],
+    "creators": [
+      {
+        "address": "HusrUj9LqBfsm13DKwFM4czWCUjEyWvagW8Gum6KbZpR",
+        "share": 100
+      }
+    ]
+  }
+}
